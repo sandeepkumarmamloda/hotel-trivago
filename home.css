@@ -1,0 +1,1208 @@
+/* first part of home page! */
+html,body{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+/* upper line of home page! */
+.first{
+    height:55px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:nowrap;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:transparent;
+}
+.first>.img{
+    height:30px;
+    width:200px;
+    margin-right:410px;
+    margin-left:0px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5-PhUgLO-RryVzYLgOV6ZpJ1IH_Mfw1vfARZgm5ilC0CmJ0t");
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+/* favorites */
+.first>.one{
+    height:100%;
+    width:125px;
+    background-color:transparent;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.first>.one:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.first>.one>.one-1{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-weight:100;
+    font-size:14px;
+    height:93%;
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+/* rupees */
+.first>.two{
+    height:100%;
+    width:110px;
+    background-color:transparent;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.first>.two:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.first>.two>.two-1{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-weight:100;
+    font-size:14px;
+    height:93%;
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+/* login button */
+.first>.three{
+    height:100%;
+    width:110px;
+    background-color:transparent;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.first>.three:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.first>.three>.three-1{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-size:14px;
+    height:93%;
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    animation-name:animation3;
+    animation-duration:3s;
+    animation-delay:2s;
+    animation-iteration-count:10;
+    animation-direction:alternate;
+    animation-timing-function:ease-out;
+}
+/* menu options */
+.first>.fourth{
+    height:100%;
+    width:110px;
+    background-color:transparent;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.first>.fourth:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.first>.fourth>.fourth-1{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-size:14px;
+    height:93%;
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+/* second part of home page! */
+.second>h2{
+    margin:0px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.second>p{
+    margin-top:-40px;
+    font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.second>.insider{
+    height:60px;
+    width:980px;
+    border-radius:10px;
+    box-shadow:0px 2px 15px rgba(0,0,0,0.3);
+    background-color:rgba(255,255,255,1);
+    overflow:hidden;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+}
+.second>.insider>hr[class="first-line"]{
+    transform:translate(-167px) rotateZ(90deg);
+    color:rgba(0,0,0,1);
+}
+.second>.insider>hr[class="second-line"]{
+    transform:translate(167px) rotateZ(90deg);
+    color:rgba(0,0,0,1);
+}
+.second{
+    height:270px;
+    width:100%;
+    background-color:rgba(0,0,0,0.02);
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-content:center;
+}
+/* third part of home page! */
+.third{
+    height:60px;
+    width:100%;
+    background-color:rgba(0,0,0,0.01);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.third>.img1{
+    height:50%;
+    width:40px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/395.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.img2{
+    height:50%;
+    width:60px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/3340.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.img3{
+    height:50%;
+    width:80px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/626.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.img4{
+    height:50%;
+    width:60px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/2192.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.img5{
+    height:50%;
+    width:60px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/14.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.img6{
+    height:50%;
+    width:60px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/634.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.img7{
+    height:50%;
+    width:60px;
+    margin-left:30px;
+    margin-right:30px;
+    background:url("https://imgcy.trivago.com/image/upload/hardcodedimages/mpm-localised-logos-dark/2452.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.third>.number{
+    color:rgba(0,0,0,0.6);
+    height:50%;
+    width:70px;
+    margin-left:40px;
+    margin-right:40px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-size:12px;
+}
+/* ye second part ke input box ke first part hai! */
+.insider>.insider-1>.insider-1-1{
+    height:85%;
+    width:98%;
+    border:none;
+    border-radius:inherit;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.insider>.insider-1>.insider-1-1>.fp{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.fp:hover{
+    background-color:rgba(0,0,0,0.05);
+    border-radius:10px;
+}
+/*ye second part ke input box ka second part hai! */
+.insider>.insider-2{
+    height:100%;
+    width:32%;
+    border-right:solid 1px rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+.insider>.insider-2>.insider-2-1>.insider-2-1-1>.fp-1{
+    height:82%;
+    width:92%;
+    padding-left:3%;
+    border:transparent;
+    border-radius:10px;
+}
+.insider>.insider-2>.insider-2-2>.insider-2-2-1>.sp{
+    height:82%;
+    width:94%;
+    border:transparent;
+    border-radius:10px;
+}
+/* recently viewed page */
+/* first-cart */
+.recently>.recently-1>.first-viewed>.first-viewed-1{
+    height:45%;
+    width:100%;
+    background-color:pink;
+    border-top-left-radius:inherit;
+    border-top-right-radius:inherit;
+}
+.recently>.recently-1>.first-viewed>.first-viewed-2{
+    height:45%;
+    width:100%;
+    background-color:pink;
+    border-bottom-left-radius:inherit;
+    border-bottom-right-radius:inherit;
+}
+/* second-part */
+.recently>.recently-2>.second-viewed>.second-viewed-1{
+    height:45%;
+    width:100%;
+    background-color:pink;
+    border-top-left-radius:inherit;
+    border-top-right-radius:inherit;
+}
+.recently>.recently-2>.second-viewed>.second-viewed-2{
+    height:45%;
+    width:100%;
+    background-color:pink;
+    border-bottom-left-radius:inherit;
+    border-bottom-right-radius:inherit;
+}
+/* third-cart */
+.recently>.recently-3>.third-viewed>.third-viewed-1{
+    height:45%;
+    width:100%;
+    background-color:pink;
+    border-top-left-radius:inherit;
+    border-top-right-radius:inherit;
+}
+.recently>.recently-3>.third-viewed>.third-viewed-2{
+    height:45%;
+    width:100%;
+    background-color:pink;
+    border-bottom-left-radius:inherit;
+    border-bottom-right-radius:inherit;
+}
+/*Hot hotel deals right now!*/
+.hot-hotels-deals-right-now{
+    height:750px;
+    width:980px;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    align-content:flex-start;
+}
+.carts{
+    height:600px;
+    width:inherit;
+    background-color:transparent;
+    margin:0px auto;
+    overflow-x:scroll;
+    overflow-y:hidden; 
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    gap:20px;
+    scrollbar-width:none;
+}
+.carts::-webkit-scrollbar{
+    background-color:transparent;
+}
+/* first-cart */
+.first-cart{
+    height:95%;
+    width:335px;
+    border-radius:12px;
+    background-color:white;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 20px 0px  rgba(0,0,0,0.2);
+}
+.first-cart>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/5a/34/a8e7b916e817a3c68bd3d92a4289ea66981fa657f4b565ba37449ba77d60.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.first-cart>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.first-cart>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* second-cart */
+.second-cart{
+    height:95%;
+    width:335px;
+    background-color:white;
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.second-cart>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/a1/4b/8b561443d7fc09f61fb62b9989502a5cdd07c2b6a14a095ca3374414811e.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.second-cart>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.second-cart>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* third-part */
+.third-cart{
+    height:95%;
+    width:335px;
+    background-color:white;
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.third-cart>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/44/5d/9b8a73ed4622b38288ffc8091e6326bb56157961e1a6b1d4dd965a14203e.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.third-cart>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.third-cart>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* fourth-part */
+.fourth-cart{
+    height:95%;
+    width:335px;
+    background-color:white;
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.fourth-cart>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/partner-images/55/b4/f8c1b99b3ef2677f8f8e1479bd1fd5d0e43b9374c1ebbc641b61c21570da.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.fourth-cart>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.fourth-cart>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* functionality parts of carts */
+/* first-cart(for delhi)! */
+.first-cart-1{
+    height:98%;
+    width:335px;
+    border-radius:12px;
+    background-color:white;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 10px  rgba(0,0,0,0.2);
+}
+.first-cart-1>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/40/15/1104092fc79d4fd2238902af80b377dca472154ff03f879f78204e2fc12c.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.first-cart-1>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.first-cart-1>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* second cart(for delhi) */
+.second-cart-1{
+    height:98%;
+    width:335px;
+    border-radius:12px;
+    background-color:white;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 10px  rgba(0,0,0,0.2);
+}
+.second-cart-1>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/c4/75/4fe520c17f18234a036ac35bd4dfa3717cd618dd714400d27650cb01515e.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.second-cart-1>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.second-cart-1>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* third-cart(for delhi)! */
+.third-cart-1{
+    height:98%;
+    width:335px;
+    border-radius:12px;
+    background-color:white;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+.third-cart-1>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/89/61/fd0493e217e43def7b314782fe97f39828a296b4cc5a4dfcc6cbf50d3f64.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.third-cart-1>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.third-cart-1>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* fourth-cart(for delhi)! */
+.fourth-cart-1{
+    height:98%;
+    width:335px;
+    border-radius:12px;
+    background-color:white;
+    overflow:hidden;
+    display:flex;
+    flex-shrink:0;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 0px 10px  rgba(0,0,0,0.2);
+}
+.fourth-cart-1>.fp{
+    height:50%;
+    width:100%;
+    background:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_534,q_40,w_800/hotelier-images/7f/aa/e6d174c12463aabdc46bc59a641be8eba2dda4155ef5ced4b9b30f8a1e40.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:blue;
+}
+.fourth-cart-1>.sp{
+    height:20%;
+    width:100%;
+    margin-top:20px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+}
+.fourth-cart-1>.tp{
+    height:30%;
+    width:90%;
+    border:solid 1px black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+/* recently viewed */
+.recently-container{
+    height:250px;
+    width:980px;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.recently{
+    height:180px;
+    width:980px;
+    background-color:transparent;
+    margin:0px auto;
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    gap:30px;
+    align-items:flex-start;
+}
+.recently>.recently-1{
+    height:100%;
+    width:220px;
+    background-color:ghostwhite;
+    border-radius:20px;
+}
+.recently>.recently-2{
+    height:100%;
+    width:220px;
+    background-color:ghostwhite;
+    border-radius:20px;
+}
+.recently>.recently-3{
+    height:100%;
+    width:220px;
+    background-color:ghostwhite;
+    border-radius:20px;
+}
+/* login elements of login button */
+.login-page{
+    height:310px;
+    width:500px;
+    background-color:white;
+    border-radius:10px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-content:center;
+    animation-name:animation;
+    animation-duration:380ms;
+    animation-iteration-count:1;
+    animation-timing-function:ease-out;
+    animation-direction:normal;
+}
+@keyframes animation{
+    0%{
+        transform:translate(-50%,100%);
+        opacity:0;
+    }
+    10%{
+        opacity:0.1
+    }
+    20%{
+        opacity:0.2;
+    }
+    30%{
+        opacity:0.3;
+    }
+    40%{
+        opacity:0.4;
+    }
+    50%{
+        opacity:0.5;
+    }
+    60%{
+        opacity:0.6;
+    }
+    70%{
+        opacity:0.7;
+    }
+    80%{
+        opacity:0.8;
+    }
+    90%{
+        opacity:0.9;
+    }
+    100%{
+        opacity:1;
+    }
+}
+/* inner element of login page on home! */
+.login-page>.trivago-and-close{
+    height:30px;
+    width:30%;
+    margin-right:68%;
+    margin-left:-4%;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5-PhUgLO-RryVzYLgOV6ZpJ1IH_Mfw1vfARZgm5ilC0CmJ0t");
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.login-page>.mini-login-page{
+    height:45%;
+    width:94%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.login-page>.mini-login-page>.mini-login-page-1{
+    height:30%;
+    width:99%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.login-page>.mini-login-page>.mini-login-page-1>.google{
+    height:31px;
+    width:31.5%;
+    border:1px solid rgba(0,0,0,0.6);
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+.login-page>.mini-login-page>.mini-login-page-1>.apple{
+    height:31px;
+    width:31.5%;
+    border:1px solid rgba(0,0,0,0.6);
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+.login-page>.mini-login-page>.mini-login-page-1>.facebook{
+    height:31px;
+    width:31.5%;
+    border:1px solid rgba(0,0,0,0.7);
+    border-top-left-radius:7px;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+.login-page>.mini-login-page>.or{
+    height:22%;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-content:center;
+}
+/* inner element of menu! */
+.menu>.menu-1>form>.menu-1-1:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.menu>.menu-1>form>.menu-1-2:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+/* adding currency and language element on the home page! */
+.language-and-currency{
+    height:272.4px;
+    width:400px;
+    border-radius:10px;
+    background-color:white;
+    position:fixed;
+    bottom:50%;
+    right:50%;
+    transform:translate(50%,50%);
+    display:none;
+    flex-direction:column;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    align-items:center;
+    animation-name:animation2;
+    animation-duration:370ms;
+    animation-timing-function:ease-out;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+}
+@keyframes animation2{
+    0%{
+        transform:translate(50%,100%);
+        opacity:0;
+    }
+    10%{
+        opacity:0.1
+    }
+    20%{
+        opacity:0.2;
+    }
+    30%{
+        opacity:0.3;
+    }
+    40%{
+        opacity:0.4;
+    }
+    50%{
+        opacity:0.5;
+    }
+    60%{
+        opacity:0.6;
+    }
+    70%{
+        opacity:0.7;
+    }
+    80%{
+        opacity:0.8;
+    }
+    90%{
+        opacity:0.9;
+    }
+    100%{
+        opacity:1;
+    }
+}
+.language-and-currency>.language-and-currency-2{
+    height:34px;
+    width:85%;
+    border-radius:8px;
+    border:1px solid rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.language-and-currency>.language-and-currency-2>#lc-2{
+    height:92%;
+    width:99%;
+    border-radius:inherit;
+    border:none;
+    outline:none;
+}
+.language-and-currency>.language-and-currency-3{
+    height:34px;
+    width:85%;
+    border-radius:8px;
+    border:1px solid rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.language-and-currency>.language-and-currency-3>#lc-3{
+    height:92%;
+    width:99%;
+    border-radius:inherit;
+    padding-right:10px;
+    border:none;
+    outline:none;
+}
+/* functionality of insider,s element */
+.insider>.insider-2>.insider-2-1{
+    height:100%; 
+    width:54%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+    background-color:transparent;
+}
+.insider>.insider-2>.insider-2-1>.insider-2-1-1{
+    height:93%;
+    width:98%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+    border:transparent;
+}
+.insider>.insider-2>.insider-2-2{
+    height:100%;
+    width:45.85%;
+    margin-right:0.15%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+.insider>.insider-2>.insider-2-2>.insider-2-2-1{
+    height:93%;
+    width:98%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+/* hover on insider's elements */
+.insider-2-1:hover{
+    background-color:transparent;
+}
+.insider-2-2:hover{
+    background-color:transparent;
+}
+.discover-the-best-time-to-book-your-next-stay{
+    height:646.200px;
+    width:980px;
+    margin:0px auto;
+    background-color:white;
+    border-radius:20px;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-1{
+    height:70%;
+    width:100%;
+    background-image:url("https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_380,q_45,w_980/https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64989_v41.jpeg.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:none;
+    border-bottom-left-radius:none;
+    margin-top:-60px;
+    z-index:0;
+    box-shadow:inset 0px -25px 20px 0px rgba(255,255,255,1);
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2{
+    height:70.734%;
+    width:688px;
+    padding-top:1.633%;
+    padding-bottom:1.633%;
+    padding-right:16px;
+    padding-left:16px;
+    background-color:white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    margin:0px auto;
+    position:relative;
+    top:-260px;
+    box-shadow:0px 0px 10px 3px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.first-container{
+    height:8%;
+    width:100%;
+    overflow-x:scroll;
+    overflow-y:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-content:center;
+    scrollbar-width:none;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.first-container>.items{
+    height:fit-content;
+    width:fit-content;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-top-right-radius:18px;
+    border-top-left-radius:18px;
+    border-bottom-right-radius:18px;
+    border-bottom-left-radius:18px;
+    margin-right:5px;
+    margin-left:5px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-weight:700;
+    font-size:12px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.first-container>.items:hover{
+    background-color:rgba(0,0,0,1);
+    color:rgba(255,255,255,1);
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.prices{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-size:12px;
+    color:rgba(0,0,0,0.6);
+    margin-top:20px;
+    margin-bottom:12px;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.second-container{
+    height:80.2%;
+    width:100%;
+    background-color:transparent;
+    display:grid;
+    grid-template-rows:repeat(6,1fr);
+    grid-template-columns:repeat(2,1fr);
+    grid-row-gap:10px;
+    grid-column-gap:20px;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.second-container>.elements{
+    border:solid 1px rgba(0,0,0,0.2);
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.discover-the-best-time-to-book-your-next-stay>.discover-the-best-time-to-book-your-next-stay-2>.second-container>.elements:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+/* styling of insider-1 in input element */
+.insider>.insider-1{
+    height:100%;
+    width:30%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border-right:solid 1px rgba(0,0,0,0.2);
+}
+@keyframes animation3{
+    from{
+        box-shadow:0px 0px 10px 5px orange;
+        border-radius:2px;
+    }
+    to{
+        box-shadow:0px 0px 10px 5px white;
+        border-radius:2px;
+    }
+}
+/*firs images*/
+.beautiful-images{
+    height:267px;
+    width:980px;
+    margin:80px auto;
+    margin-bottom:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:flex-start;
+}
+.beautiful-images>.search-images{
+    height:100%;
+    width:316px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+}
+.beautiful-images>.search-image>.search-image-1{
+    height:170px;
+    width:270px;
+    background-image:url("https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SearchDesktop.svg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.beautiful-images>.search-image>.search-image-2{
+    height:97px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+/* second image */
+.beautiful-images>.compare-confidently{
+    height:100%;
+    width:316px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+}
+.beautiful-images>.compare-confidently>.compare-confidently-1{
+    height:170px;
+    width:270px;
+    background-image:url("https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/CompareDesktop.svg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.beautiful-images>.compare-confidently>.compare-confidently-2{
+    height:97px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+/* third images */
+.beautiful-images>.save-big{
+    height:100%;
+    width:316px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+}
+.beautiful-images>.save-big>.save-big-1{
+    height:170px;
+    width:270px;
+    background-image:url("https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SaveDesktop.svg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.beautiful-images>.save-big>.save-big-2{
+    height:97px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
