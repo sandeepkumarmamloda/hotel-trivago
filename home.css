@@ -1206,3 +1206,10 @@ html,body{
     flex-wrap:wrap;
     align-items:center;
 }
+/* hover on buttons of home page */
+.language-and-currency-4-1:hover{
+    background-color:#00578b;
+}
+.insider>.insider-3>.insider-3-2>.part-1>form>.search:hover{
+    background-color:#00578b;
+}
