@@ -1206,6 +1206,22 @@ html,body{
     flex-wrap:wrap;
     align-items:center;
 }
+/* it is the remaining part of currency and rupees box */
+.language-and-currency-4-1{
+    height:35.6px;
+    width:70.33px;
+    background-color:#0079c2;
+    margin-right:20px;
+    border-radius:8px;
+    color:#ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-weight:650;
+    font-size:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
 /* hover on buttons of home page */
 .language-and-currency-4-1:hover{
     background-color:#00578b;
