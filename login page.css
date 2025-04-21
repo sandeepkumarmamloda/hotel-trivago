@@ -1,0 +1,133 @@
+body{
+    height:100vh;
+    width:100vw;
+    margin:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.container{
+    height:609px;
+    width:892px;
+    background-color:transparent;
+    margin:24px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+    gap:56px;
+}
+/* container 1 in container */
+.container>.container-1{
+    height:100%;
+    width: 52.577319587628865979381443298969%;
+    background-color:transparent;
+    border-radius:12px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+    align-items:center;
+    overflow:hidden;
+}
+.container>.container-1>.container-1-1{
+    height:61%;
+    width:100%;
+    background-color:#ffeec0;
+}
+.container>.container-1>.container-1-1>.container-1-1-1{
+    height:233px;
+    width:331px;
+    background-image:url("https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,q_auto:eco,h_233,dpr_2.0/hardcodedimages/web-app/auth-page/account-benefits-coins.png");
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-top:101px;
+    margin-left:69.500px;
+    margin-right:69.500px;
+}
+.container>.container-1>.container-1-2{
+    height:39%;
+    width:100%;
+    background-color:#f6f6f5;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:flex-start;
+}
+.container>.container-1>.container-1-2>.container-1-2-1{
+    height:120px;
+    width:366.650px;
+    margin-top:35px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:#f6f6f5;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    align-items:center;
+}
+/* container 2 in container */
+.container>.container-2{
+    height:100%;
+    width: 41.055276381909547738693467336683%;
+    background-color:transparent;
+    border-radius:12px;
+}
+/*inner part of container 2*/
+.container>.container-2>.container-2-1{
+    height:38.4px;
+    width:100%;
+    margin-bottom:72px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.container>.container-2>.container-2-1>.trivago-logo{
+    height:32px;
+    width:102px;
+    background-image:url("https://auth.trivago.com/_static/icons/logo.svg");
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.container>.container-2>.container-2-2{
+    height: 18.400px;
+    padding:12px 6px;
+    width: 352.400px;
+    margin-top:4px;
+    background-color: transparent;
+    border:0.800px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.container>.container-2>.container-2-3{
+    height: 18.400px;
+    padding:12px 6px;
+    width: 352.400px;
+    margin-top:8px;
+    background-color: #0079c2;
+    border:0.800px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-weight:700;
+}
