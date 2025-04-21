@@ -34,5 +34,5 @@ En.addEventListener("click",function(){
 // click on the back button to come back to the home page
 let back=document.querySelector(".back");
 back.addEventListener("click",function(){
-    window.location.href="home.html";
+    window.location.href="index.html";
 });
