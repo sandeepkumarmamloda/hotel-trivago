@@ -63,11 +63,8 @@ function recently(event){
 }
 // cites vise hotels
 let input=document.querySelector(".fp>.fp-2>input");
-<<<<<<< HEAD
+
 let search=document.querySelector(".search");
-=======
-let search=document.querySelector("button");
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
 function forHotels(event){
     if((input.value==="delhi")||(input.value==="Delhi")){
         firstCart();
@@ -75,10 +72,6 @@ function forHotels(event){
         thirdCart();
         fourthCart();
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
 }
 // code for first cart
 function firstCart(){
@@ -245,10 +238,6 @@ search.addEventListener("click",function(event){
 });
 // functionality of login element and EN-rupees element
 let loginElement=document.querySelector(".three");
-<<<<<<< HEAD
-=======
-
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
 let outLet=document.querySelector(".out-let");
 let login=document.querySelector(".login-page");
 let borderForLogin=document.querySelector(".three-1");
