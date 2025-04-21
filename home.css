@@ -379,11 +379,7 @@ html,body{
 /* first-cart */
 .first-cart{
     height:95%;
-<<<<<<< HEAD
     width:331px;
-=======
-    width:335px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:12px;
     background-color:white;
     overflow:hidden;
@@ -401,11 +397,7 @@ html,body{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-<<<<<<< HEAD
     border-radius:none;
-=======
-    background-color:blue;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
 }
 .first-cart>.sp{
     height:20%;
@@ -414,26 +406,16 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .first-cart>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* second-cart */
 .second-cart{
     height:95%;
-<<<<<<< HEAD
     width:331px;
-=======
-    width:335px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     background-color:white;
     border-radius:12px;
     overflow:hidden;
@@ -460,26 +442,16 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .second-cart>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* third-part */
 .third-cart{
     height:95%;
-<<<<<<< HEAD
     width:331px;
-=======
-    width:335px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     background-color:white;
     border-radius:12px;
     overflow:hidden;
@@ -506,26 +478,16 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .third-cart>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* fourth-part */
 .fourth-cart{
     height:95%;
-<<<<<<< HEAD
     width:331px;
-=======
-    width:335px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     background-color:white;
     border-radius:12px;
     overflow:hidden;
@@ -552,28 +514,17 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .fourth-cart>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* functionality parts of carts */
 /* first-cart(for delhi)! */
 .first-cart-1{
-<<<<<<< HEAD
     height:95%;
     width:331px;
-=======
-    height:98%;
-    width:335px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:12px;
     background-color:white;
     overflow:hidden;
@@ -600,25 +551,15 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .first-cart-1>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* second cart(for delhi) */
 .second-cart-1{
-<<<<<<< HEAD
     height:95%;
-=======
-    height:98%;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     width:335px;
     border-radius:12px;
     background-color:white;
@@ -646,25 +587,15 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .second-cart-1>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* third-cart(for delhi)! */
 .third-cart-1{
-<<<<<<< HEAD
     height:95%;
-=======
-    height:98%;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     width:335px;
     border-radius:12px;
     background-color:white;
@@ -692,25 +623,15 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .third-cart-1>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
 /* fourth-cart(for delhi)! */
 .fourth-cart-1{
-<<<<<<< HEAD
     height:95%;
-=======
-    height:98%;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     width:335px;
     border-radius:12px;
     background-color:white;
@@ -738,15 +659,9 @@ html,body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
 }
 .fourth-cart-1>.tp{
-<<<<<<< HEAD
     height:31%;
     width:90%;
     border:solid 1px #d9d8d6;
-=======
-    height:30%;
-    width:90%;
-    border:solid 1px black;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     border-radius:10px;
     margin-bottom:20px;
 }
@@ -955,11 +870,7 @@ html,body{
 }
 @keyframes animation2{
     0%{
-<<<<<<< HEAD
         transform:translate(50%,200%);
-=======
-        transform:translate(50%,100%);
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
         opacity:0;
     }
     10%{
@@ -1214,7 +1125,6 @@ html,body{
     margin-bottom:0px;
     display:flex;
     flex-direction:row;
-<<<<<<< HEAD
     justify-content:flex-start;
     flex-wrap:wrap;
     align-items:flex-start;
@@ -1222,15 +1132,6 @@ html,body{
 .beautiful-images>.search-image{
     height:100%;
     width:326.66px;
-=======
-    justify-content:center;
-    flex-wrap:wrap;
-    align-items:flex-start;
-}
-.beautiful-images>.search-images{
-    height:100%;
-    width:316px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -1238,11 +1139,7 @@ html,body{
 }
 .beautiful-images>.search-image>.search-image-1{
     height:170px;
-<<<<<<< HEAD
     width:100%;
-=======
-    width:270px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     background-image:url("https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SearchDesktop.svg");
     background-size:contain;
     background-repeat:no-repeat;
@@ -1260,11 +1157,7 @@ html,body{
 /* second image */
 .beautiful-images>.compare-confidently{
     height:100%;
-<<<<<<< HEAD
     width:326.66px;
-=======
-    width:316px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -1272,11 +1165,7 @@ html,body{
 }
 .beautiful-images>.compare-confidently>.compare-confidently-1{
     height:170px;
-<<<<<<< HEAD
     width:100%;
-=======
-    width:270px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     background-image:url("https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/CompareDesktop.svg");
     background-size:contain;
     background-repeat:no-repeat;
@@ -1294,11 +1183,7 @@ html,body{
 /* third images */
 .beautiful-images>.save-big{
     height:100%;
-<<<<<<< HEAD
     width:326.66px;
-=======
-    width:316px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -1306,11 +1191,7 @@ html,body{
 }
 .beautiful-images>.save-big>.save-big-1{
     height:170px;
-<<<<<<< HEAD
     width:100%px;
-=======
-    width:270px;
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
     background-image:url("https://imgcy.trivago.com//hardcodedimages/homepage-landing/usp/SaveDesktop.svg");
     background-size:contain;
     background-repeat:no-repeat;
@@ -1347,7 +1228,6 @@ html,body{
 }
 .insider>.insider-3>.insider-3-2>.part-1>form>.search:hover{
     background-color:#00578b;
-<<<<<<< HEAD
 }
 /* download the trivago app */
 .download-the-trivago-app{
@@ -1877,6 +1757,4 @@ form>.login-in-or-account:hover{
 }
 .search:hover{
     background-color:#00578b;
-=======
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
 }
