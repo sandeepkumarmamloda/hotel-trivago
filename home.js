@@ -350,12 +350,9 @@ firstButton.addEventListener("click",function(){
     document.styleSheets[0].cssRules[32].style.setProperty("border","dotted 3.5px rgba(0,0,0,0.2)");
     document.styleSheets[0].cssRules[34].style.setProperty("border","none");
     document.styleSheets[0].cssRules[35].style.setProperty("border","none");
-<<<<<<< HEAD
 });
 // page change when click on favorites button
 let favoritesPage=document.querySelector(".one-1");
 favoritesPage.addEventListener("click",function(){
     window.location.href="favorites.html";
-=======
->>>>>>> 484988805157280201d8186d7ac4537307e3993f
 });
