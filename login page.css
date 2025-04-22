@@ -103,13 +103,22 @@ body{
     margin-top:4px;
     background-color: transparent;
     border:0.800px solid #ccc;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: white;
-    font-weight: 600;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: black;
+    font-weight: 100;
     font-size: 16px;
+    outline:none;
+}
+.container>.container-2>.container-2-2:focus{
+    outline:solid 1px #0079c2;
+}
+.container>.container-2>.container-2-2::placeholder{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
+    font-weight:400;
+    padding-left:10px;
 }
 .container>.container-2>.container-2-3{
     height: 18.400px;
@@ -130,4 +139,34 @@ body{
     align-items:center;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, sans-serif;
     font-weight:700;
+}
+.container>.container-2>.container-2-4{
+    height:24px;
+    width:100%;
+    margin:32px 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+}
+.container>.container-2>.container-2-4::before{
+    content: "";
+    flex: 1;
+    height: 0.8px;
+    width:111.050px;
+    background:black;
+    margin-top: 11.600px;
+    margin-bottom:11.600px;
+    margin-right:16px;
+}
+.container>.container-2>.container-2-4::after{
+    content: "";
+    flex: 1;
+    height: 0.8px;
+    width:111.050px;
+    background:black;
+    margin-top: 11.600px;
+    margin-bottom:11.600px;
+    margin-left:16px;
 }
