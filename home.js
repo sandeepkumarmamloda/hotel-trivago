@@ -368,3 +368,13 @@ checkOut.addEventListener("click",()=>{
     document.styleSheets[0].cssRules[192].style.setProperty("display","flex");
     document.styleSheets[0].cssRules[17].style.setProperty("z-index", "3");
 });
+// dates in home page of trivago
+let dates=document.querySelector(".dates>p");
+setInterval(()=>{
+    if(dates.innerText=="you can enjoy the other functions of trivago!"){
+        dates.innerText="This site is under development!";
+    }
+    else{
+        dates.innerText="you can enjoy the other functions of trivago!"
+    }
+},4000);
