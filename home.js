@@ -244,6 +244,8 @@ let borderForLogin=document.querySelector(".three-1");
 loginElement.addEventListener("click",function(){
     login.style.display="flex";
     outLet.style.display="flex";
+    outLet.style.backgroundColor="#0a1121bf";
+    document.styleSheets[0].cssRules[17].style.setProperty("z-index", "1");
 });
 borderForLogin.addEventListener("click",()=>{
     document.styleSheets[0].cssRules[11].style.setProperty("border","dotted 1px rgba(0,0,0,0.7)");
@@ -259,6 +261,13 @@ outLet.addEventListener("click",()=>{
     if(document.styleSheets[0].cssRules[93].style.getPropertyValue("display")!="none"){
         document.styleSheets[0].cssRules[93].style.setProperty("display","none");
     }
+    if(document.styleSheets[0].cssRules[192].style.getPropertyValue("display")!="none"){
+        document.styleSheets[0].cssRules[192].style.setProperty("display","flex");
+        document.styleSheets[0].cssRules[34].style.setProperty("border","none");
+        document.styleSheets[0].cssRules[35].style.setProperty("border","none");
+        document.styleSheets[0].cssRules[31].style.setProperty("border","none");
+        document.styleSheets[0].cssRules[192].style.setProperty("display","none");
+    }
 });
 // functionality of menu element of menu!
 let menuElement=document.querySelector(".fourth");
@@ -273,6 +282,7 @@ menuElement.addEventListener("mouseenter",()=>{
 menu.addEventListener("mouseover",function(){
         menu.style.display="flex";
         document.styleSheets[0].cssRules[14].style.setProperty("border","dotted 1px rgba(0,0,0,0.7)");
+        document.styleSheets[0].cssRules[17].style.setProperty("z-index", "0");
 });
 menu.addEventListener("mouseleave",()=>{
         if(menu.style.display=="flex"){
@@ -294,8 +304,10 @@ let En=document.querySelector(".two-1");
 En.addEventListener("click",function(){
     document.styleSheets[0].cssRules[93].style.setProperty("display","flex");
     document.styleSheets[0].cssRules[93].style.setProperty("z-index","4");
+    document.styleSheets[0].cssRules[17].style.setProperty("z-index", "1");
     if(outLet.style.display=="none"){
         outLet.style.display="flex";
+        outLet.style.backgroundColor="#0a1121bf";
     }
 });
 // functionality of insider elements
@@ -309,11 +321,6 @@ secondButtonOfInsider.addEventListener("click",function(){
         document.styleSheets[0].cssRules[99].style.setProperty("background-color","transparent");
         document.styleSheets[0].cssRules[100].style.setProperty("border","transparent");
     },300);
-    document.styleSheets[0].cssRules[35].style.setProperty("border","none");
-    document.styleSheets[0].cssRules[31].style.setProperty("border","none");
-});
-document.addEventListener("dblclick",function(){
-    document.styleSheets[0].cssRules[34].style.setProperty("border","none");
     document.styleSheets[0].cssRules[35].style.setProperty("border","none");
     document.styleSheets[0].cssRules[31].style.setProperty("border","none");
 });
@@ -344,4 +351,20 @@ firstButton.addEventListener("click",function(){
 let favoritesPage=document.querySelector(".one-1");
 favoritesPage.addEventListener("click",function(){
     window.location.href="favorites.html";
+});
+// functionality on check which is inside the insider
+// check in
+let checkIn=document.querySelector(".insider-2-1");
+checkIn.addEventListener("click",()=>{
+    outLet.style.display="flex";
+    outLet.style.backgroundColor="transparent";
+    document.styleSheets[0].cssRules[192].style.setProperty("display","flex");
+    document.styleSheets[0].cssRules[17].style.setProperty("z-index", "3");
+});
+let checkOut=document.querySelector(".insider-2-2");
+checkOut.addEventListener("click",()=>{
+    outLet.style.display="flex";
+    outLet.style.backgroundColor="transparent";
+    document.styleSheets[0].cssRules[192].style.setProperty("display","flex");
+    document.styleSheets[0].cssRules[17].style.setProperty("z-index", "3");
 });

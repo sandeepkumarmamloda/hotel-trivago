@@ -113,6 +113,7 @@ html,body{
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    position:relative;
 }
 .first>.fourth:hover{
     background-color:rgba(0,0,0,0.05);
@@ -142,10 +143,12 @@ html,body{
     border-radius:10px;
     box-shadow:0px 2px 15px rgba(0,0,0,0.3);
     background-color:rgba(255,255,255,1);
-    overflow:hidden;
+    overflow:visible;
     display:flex;
     flex-direction:row;
     justify-content:flex-start;
+    position:relative;
+    z-index:1;
 }
 .second>.insider>hr[class="first-line"]{
     transform:translate(-167px) rotateZ(90deg);
@@ -289,6 +292,7 @@ html,body{
     justify-content:flex-start;
     flex-wrap:nowrap;
     align-items:center;
+    position:relative;
 }
 .insider>.insider-2>.insider-2-1>.insider-2-1-1>.fp-1{
     height:82%;
@@ -1757,4 +1761,22 @@ form>.login-in-or-account:hover{
 }
 .search:hover{
     background-color:#00578b;
+}
+.dates{
+    height:459.700px;
+    width:652px;
+    background-color:white;
+    border:1px solid transparent;
+    border-radius:10px;
+    position:absolute;
+    top:68px;
+    left:0px;
+    Z-index:2;
+    box-shadow:0px 0px 28px 4px rgba(0,0,0,0.5);
+    display:none;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:nowrap;
+    align-items:center;
+    font-size:20px;
 }
