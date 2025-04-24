@@ -375,6 +375,6 @@ setInterval(()=>{
         dates.innerText="This site is under development!";
     }
     else{
-        dates.innerText="you can enjoy the other functions of trivago!"
+        dates.innerText="you can enjoy the other functions of trivago!";
     }
 },4000);

@@ -1781,17 +1781,18 @@ form>.login-in-or-account:hover{
     font-size:20px;
 }
 .dates>.dates-1{
-    height:22.4px;
+    height:28.4px;
     width:1%;
     background-color:white;
     position:absolute;
     right:0px;
     animation-name:animation4;
     animation-duration:2s;
-    animation-delay:1s;
-    animation-timing-function:ease-out;
+    animation-delay:0s;
+    animation-timing-function:ease;
     animation-iteration-count:infinite;
     animation-direction:alternate;
+    
 }
 @keyframes animation4{
     0%{
