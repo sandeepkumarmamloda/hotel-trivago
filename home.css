@@ -366,6 +366,7 @@ html,body{
 }
 .carts{
     height:600px;
+    padding:0px;
     width:inherit;
     background-color:transparent;
     margin:0px auto;
@@ -376,6 +377,7 @@ html,body{
     flex-direction:row;
     gap:20px;
     scrollbar-width:none;
+    position:relative;
 }
 .carts::-webkit-scrollbar{
     background-color:transparent;
@@ -1762,6 +1764,7 @@ form>.login-in-or-account:hover{
 .search:hover{
     background-color:#00578b;
 }
+/* dates on insider's */
 .dates{
     height:459.700px;
     width:652px;

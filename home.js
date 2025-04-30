@@ -378,3 +378,8 @@ setInterval(()=>{
         dates.innerText="you can enjoy the other functions of trivago!";
     }
 },4000);
+// searching in insider
+let textInput=document.querySelector(".insider-1-1");
+textInput.addEventListener("click",function(){
+    document.querySelector(".search-input").focus();
+});
